@@ -1,0 +1,20 @@
+
+h1 {
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 40px;
+ }
+
+.TodoCounter{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.TodoCounter span{
+    font-weight: bold;
+}
+ 
