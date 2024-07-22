@@ -3,9 +3,10 @@ import React from 'react';
 import './CreateTodoButton.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-function CreateTodoButton({ onClick }) {
+function CreateTodoButton({ setOpenModal }) {
   return (
-    <button className='CreateTodoButton' onClick={onClick}>
+    <button
+      className='CreateTodoButton' onClick={() => { setOpenModal(state => !state)}}>
       <i class="fa fa-plus-circle" aria-hidden="true"></i>
     </button>
   );

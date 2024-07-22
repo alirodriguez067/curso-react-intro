@@ -12,13 +12,16 @@
     display: flex;
     margin: 40px;
     margin-top: 10px;
-    margin-left: 60px;
+    margin-left: 50%;
     font-size: 70px; /* Ajusta el tamaño del icono */
     width: 60px; /* Ajusta el ancho del botón */
     height: 60px; /* Ajusta la altura del botón */
+    z-index: 1;
+    
 }
 .create-todo-button i {
     font-size: 32px; /* Aumenta el tamaño del icono */
+    text-align: center;
 }
 
 
@@ -29,6 +32,7 @@
     width: 100%;
     margin: -16px;
     margin-left: 10px;
+    height: 100vh;
 }
 
 .TodoInput-container input {
