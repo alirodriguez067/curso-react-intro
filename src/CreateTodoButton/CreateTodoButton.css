@@ -10,9 +10,8 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 40px;
+    margin: auto;
     margin-top: 10px;
-    margin-left: 50%;
     font-size: 70px; /* Ajusta el tamaño del icono */
     width: 60px; /* Ajusta el ancho del botón */
     height: 60px; /* Ajusta la altura del botón */

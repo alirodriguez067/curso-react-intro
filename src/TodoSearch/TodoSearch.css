@@ -19,9 +19,9 @@ input {
 .TodoSearch{
     border-radius: 10px;
     border: 2px solid rgb(27, 27, 177);
-    margin: 0 20px 0 40px;
+    margin: 0px 0px 0px 20px;
     height: 40px;
-    margin-left: 60px;
+    margin-left: 0px;
     width: calc(100% -62px);
     font-size: 20px;
     text-align: center;
